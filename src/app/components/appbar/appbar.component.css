@@ -1,0 +1,40 @@
+.example-container {
+  width: 200px;
+  height: 100%;
+  border: 1px solid #555;
+}
+
+.image-rally {
+  width: 60px;
+  height: 60px;
+  margin-left: 35.6%;
+  margin-top: 5%;
+}
+
+.rally-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+
+mat-icon {
+  font-size: 26px;
+  margin: 20px;
+}
+
+.mat-drawer {
+  width: 200px;
+  justify-content: center;
+}
+
+.mat-drawer-container {
+  width: 100%;
+  height: 100%;
+}
+
+.button-rally {
+  width: 60px;
+  height: 60px;
+  position: sticky;
+}

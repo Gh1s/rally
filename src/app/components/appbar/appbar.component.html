@@ -1,0 +1,19 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer #drawer mode="over">
+    <div class="img-container">
+      <img src="../../../assets/rally.png" class="image-rally">
+    </div>
+    <div class="rally-icons">
+      <mat-icon aria-hidden="false" aria-label="Example home icon">pie_chart</mat-icon>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">euro</mat-icon>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">credit_card</mat-icon>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">space_dashboard</mat-icon>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">settings</mat-icon>
+    </div>
+  </mat-drawer>
+  <mat-drawer-content style="margin-top: 1%" class="mx-4">
+    <img src="../../../assets/rally.png" class="button-rally z-40" (click)="drawer.toggle()">
+    <app-dashboard></app-dashboard>
+  </mat-drawer-content>
+</mat-drawer-container>
+
